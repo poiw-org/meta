@@ -1,0 +1,19 @@
+/* Write your global styles here, in PostCSS syntax */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@tailwind base;
+html, p, h1, h2, h3, h4, h5, h6, span, div {
+  font-family: "JetBrains Mono", monospace !important;
+}
+body {
+  background: url(/gradient.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.s-app{
+  background: none !important;
+}
+@tailwind components;
+@tailwind utilities;
